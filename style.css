@@ -1,0 +1,368 @@
+@font-face {
+    font-family: Aileron Bold;
+    src: url(./Fonts/Aileron-Bold.otf);
+}
+
+@font-face {
+    font-family: Aileron Italic;
+    src: url(./Fonts/Aileron-Italic.otf);
+}
+
+@font-face {
+    font-family: Aileron Regular;
+    src: url(./Fonts/Aileron-Regular.otf);
+}
+
+@font-face {
+    font-family: Aileron LightItalic;
+    src: url(./Fonts/Aileron-LightItalic.otf);
+}
+
+@font-face {
+    font-family: Aileron BoldItalic;
+    src: url(./Fonts/Aileron-BoldItalic.otf);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./Images/untitled.png); 
+    width: 100%;
+    max-height: 1080px;
+    position: fixed;
+}
+.GeoBtn {
+    transform: translate(1395px, 48px);
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #ffffff44;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    cursor:pointer;
+}
+.GeoBtn:hover {
+    color: rgb(14, 14, 14);
+    background-color: #ffffff;
+    transform-origin: right;
+    transition: 1s;
+box-shadow: 0px 10px 40px 0px rgba(255, 255, 255, 0.263);
+
+}
+#navBar {
+    list-style: none;
+    font-family: Aileron Regular;
+    font-size: 18px;
+    align-items: center;
+    transform: translate(191%, 0%);
+
+
+   }
+   
+   nav, ul, li, a {
+       color: #7d7d7d;
+       text-decoration: none;
+       display: flex;
+       /* padding: 0px 16px 0px 10px; */
+
+   }
+   
+   nav, ul, li, a:hover {
+        color: #c1c1c1;
+        transform-origin: right;
+        transition: 0.2s;
+   }
+   
+   ul, li, a.active {
+       color: #2493FF;
+       font-family: Aileron Regular;
+    
+   }
+   
+.hello {
+    font-size: 52px;
+    color: #FFFFFF;
+    font-family: Aileron Bold;
+    text-align: center;
+    
+}
+.giga {
+    font-size: 52px;
+    color: #2493FF;
+    font-family: Aileron Bold;
+    margin-top: -62px;
+    margin-left: 393px;
+}
+.MainT {
+    margin-top: 160px;
+    margin-right: 160px;
+}
+.about {
+    color: #ffffffb0;
+    font-size: 20px;
+    font-family: Aileron LightItalic;
+    text-align: center;
+    margin-right: -120px;
+    margin-top: -20px;
+}
+.MainTBtn {
+    width: 170px;
+    height: 48px;
+    background-color: #2491ff00;
+    border: 1px solid #ffffff57;
+    border-radius: 25px;
+    color: #dfdfdf;
+    font-family: Aileron Regular;
+    margin-left: 850px;
+    margin-top: 28px;
+    cursor: pointer;
+
+}
+
+.MainTBtn:hover {
+    color: white;
+    background-color: #2493FF;
+    border: 0px;
+    transform-origin: left;
+    transition: 1s;
+    background: #0A86FF;
+box-shadow: 0px 12px 16px rgba(10, 134, 255, 0.15);
+
+    
+}
+.professions {
+    width: 1760px;
+    padding-left: 80px;
+    display: grid;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 16px;
+        grid-row-gap: 0px;
+}
+.professionsGraphicDesign {
+    width: 428px;
+    height: 146px;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.professionsGraphicDesign:hover {
+    box-shadow: 0px 20px 80px rgba(255, 255, 255, 0.1);
+    scale: 98%;
+transition: 0.5s;
+}
+.GraphicDesignP {
+    font-size: 18px;
+    color: #fff;
+    font-family: Aileron Bold;
+    margin-top: -28px;
+    margin-left: 60px;
+
+}
+.GraphicDesignPFrom {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Aileron Regular;
+    margin-top: -14px;
+    margin-left: 60px;
+    
+
+}
+.ProjectsBTN {
+    color: rgba(255, 255, 255, 0.595);
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+    font-family: Aileron Regular;
+    font-size: 16px;
+    padding-left: 60px;
+    margin-top: 30px;
+    cursor:pointer;
+    text-decoration:underline ;
+}
+
+.ProjectsBTN:hover {
+    color: #0A86FF;
+    transition: 0.2s;
+}
+.AKSDB_A {
+    width: 105px;
+    height: 105px;
+    border-radius: 10px;
+    object-fit: cover;
+    padding-left: 290px;
+    transform: translate(0px, -53px);
+}
+#linkedinFooter {
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(11px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 6px;
+transform: translate(84px, -52px);
+cursor: pointer;
+
+}
+
+#linkedinFooter:hover {
+    background: linear-gradient(220.27deg, #0274B3 3.82%, #026094 96.81%);
+box-shadow: 0px 11px 19px rgba(1, 133, 207, 0.38);
+border-radius: 6px;
+transition: 0.5s;
+transform-origin: right;
+}
+
+
+.socialLinks {
+       display: flex;
+       margin-top: -63px;
+}
+
+#whatsappFooter {
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(11px);
+border-radius: 6px;
+transform: translate(84px, -52px);
+margin-left: 20px;
+cursor: pointer;
+
+}
+
+#whatsappFooter:hover {
+    background: linear-gradient(220.27deg, #21C63E 3.82%, #5BF877 96.81%);
+box-shadow: 0px 11px 19px rgba(43, 207, 72, 0.24);
+border-radius: 6px;
+transition: 0.5s;
+}
+
+#facebookFooter {
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(11px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 6px;
+transform: translate(84px, -52px);
+margin-left: 20px;
+cursor: pointer;
+
+}
+
+#facebookFooter:hover {
+    background: linear-gradient(218.57deg, #1877F2 3.08%, #0A53B1 96.62%);
+box-shadow: 0px 12px 13px rgba(13, 89, 188, 0.4);
+border-radius: 6px;
+transition: 0.5s;
+}
+
+#instagramFooter {
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(11px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 6px;
+transform: translate(84px, -52px);
+margin-left: 20px;
+cursor: pointer;
+
+}
+
+#instagramFooter:hover {
+
+    background: linear-gradient(220.27deg, #FC02C5 3.82%, #FF1848 54.19%, #FF8409 96.81%);
+box-shadow: 0px 11px 19px rgba(255, 65, 49, 0.33);
+border-radius: 6px;
+transition: 0.5s;
+}
+
+#behanceFooter {
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(11px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 6px;
+transform: translate(84px, -52px);
+margin-left: 20px;
+cursor: pointer;
+
+}
+#behanceFooter:hover {
+    background: linear-gradient(220.27deg, #317AF9 3.82%, #023C90 96.81%);
+box-shadow: 0px 11px 19px rgba(44, 115, 236, 0.27);
+border-radius: 6px;
+transition: 0.5s;
+}
+
+.mobile {
+    display: none;
+}
+
+/* რესპონსივი  */
+
+@media only screen and (max-width: 500px) {
+
+    .mobile {
+        display: block;
+    }
+
+}
+
+
+
+
+.mailtogiga {
+    color: rgba(255, 255, 255, 0.363);
+    position: absolute;
+    top: 68px;
+
+}
+.mailtogiga:hover {
+    text-decoration: underline;
+    color: #fff;
+    transition: .3s;
+}
+
+
+
+.mobile div {
+    width: 1920px;
+    height: 1080px;
+    background: radial-gradient(60.21% 50% at 50% 50%, #16273b 0%, #04050A 100%);   
+ }
+.mobile span {
+    color: rgba(255, 255, 255, 0.748);
+    font-size: 23px;
+    left: 8%;
+    top: 20%;
+    position: absolute;
+    font-family: aileron regular;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 0px;
+}
+.mobile button {
+    position: absolute;
+    left: 26%;
+    top: 29%;
+    width: 200px;
+    height: 52px;
+    border-radius: 12px;
+    border: 0px;
+    background-color: white;
+    font-family: aileron italic;
+    text-decoration: underline;
+    cursor: pointer;
+}

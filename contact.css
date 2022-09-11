@@ -1,0 +1,118 @@
+.contact {
+    width: 332px;
+    padding-left: 795px;
+    margin-top: 200px;
+}
+
+.phone {
+    width: 290px;
+    height: 76px;
+    background: rgba(217, 217, 217, 0.12);
+backdrop-filter: blur(23px);
+border-radius: 10px;
+}
+.phoneImg {
+    padding-left: 24px;
+    padding-top: 14px;
+}
+
+.titlePhone {
+    font-size: 18px;
+    color: #FFF;
+    font-family: aileron bold;
+    transform: translate(60px, -46px);
+}
+.js-phone {
+    color: rgba(255, 255, 255, 0.509);
+    font-family: aileron italic;
+    font-size: 14px;
+    transform: translate(20px, -54px);
+}
+
+.js-phonecopybtn {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transform: translate(301px, -114px);
+}
+
+.copy {
+    padding: 3px;
+    padding-top: 3px;
+    opacity: 0.5;
+}
+.js-phonecopybtn:hover #copy {
+    opacity: 1;
+    transition: 0.2s;
+}
+.phone:hover {
+    transition: .2s;
+    background: rgba(217, 217, 217, 0.156);
+
+}
+
+/* მეილი */
+
+
+.mail {
+    width: 290px;
+    height: 76px;
+    background: rgba(217, 217, 217, 0.12);
+backdrop-filter: blur(23px);
+border-radius: 10px;
+margin-top: 16px;
+}
+.mailImg {
+    padding-left: 24px;
+    padding-top: 14px;
+}
+
+.mailPhone {
+    font-size: 18px;
+    color: #FFF;
+    font-family: aileron bold;
+    transform: translate(60px, -46px);
+}
+.js-mail {
+    color: rgba(255, 255, 255, 0.509);
+    font-family: aileron italic;
+    font-size: 14px;
+    transform: translate(20px, -54px);
+}
+
+.js-mailcopybtn {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transform: translate(301px, -114px);
+}
+
+.copymail {
+    padding: 3px;
+    padding-top: 3px;
+    opacity: 0.5;
+}
+.js-mailcopybtn:hover #copymail {
+    opacity: 1;
+    transition: 0.2s;
+}
+.mail:hover {
+    transition: .2s;
+    background: rgba(217, 217, 217, 0.156);
+
+}
+
+.titlemail {
+    font-size: 18px;
+    color: #FFF;
+    font-family: aileron bold;
+    transform: translate(60px, -46px);
+}
+.linkMail {
+    margin-top: -12px;
+    text-decoration: underline;
+}

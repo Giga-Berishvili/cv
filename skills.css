@@ -1,0 +1,265 @@
+@font-face {
+    font-family: Aileron BoldItalic;
+    src: url(./Fonts/Aileron-BoldItalic.otf);
+}
+
+
+.skills button {
+align-items: center;
+padding: 4px 24px;
+width: 200px;
+height: 27px;
+background: #213446;
+border-radius: 23px;
+color: #2493FF;
+border: 0px;
+text-align: center;
+align-items: center;
+font-family: aileron regular;
+font-family: 16px;
+
+}
+
+.skills {
+    width: 1527px;
+    padding-left: 197px;
+    padding-top: 100px;
+    display: grid;
+grid-template-columns: repeat(7, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 12px;
+grid-row-gap: 0px;
+}
+.skills button:hover {
+    scale: 112%;
+    background-color: #2493FF;
+    color: white;
+    transform-origin: center;
+    transition: .2s;
+}
+.illustrator {
+    width: 450px;
+    height: 106px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(28px);
+    border-radius: 14px;
+    display: flex;
+}
+
+.illustrator:hover {
+    scale: 115%;
+    transform-origin: center;
+    transition: .5s;
+    box-shadow: 0px 25px 29px -16px rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.243);
+}
+
+.illustrator img {
+    padding: 22px;
+}
+
+.tech_skills {
+    width: 1760px;
+    padding-left: 80px;
+    padding-top: 40px;
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 204px;
+grid-row-gap: 30px;
+}
+
+.title {
+font-size: 16px;
+font-family: aileron bold;
+color: #fff;
+position: absolute;
+left: 26%;
+top: 14%;
+}
+.from {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.376);
+    font-family: aileron italic;
+    /* margin-top: 52px;
+    margin-left: -122px; */
+    position: absolute;
+    top: 41px;
+    left: 115px;
+}
+.illustrator hr {
+    height: 58px;
+    stroke: 3px;
+    position: absolute; 
+top: 44px;
+left: 270px;
+width: 58px;
+height: 0px;
+border: 1px solid rgba(255, 255, 255, 0.17);
+transform: rotate(90deg);
+}
+
+.knowledge {
+    font-size: 12px;
+    font-family: aileron italic;
+    color: rgba(255, 255, 255, 0.52);
+    left: 340px;
+    top: 20px;
+    position: absolute;
+}
+.num {
+    font-family: Aileron BoldItalic;
+    color: #2493FF;
+    font-size: 16px;
+    position: absolute;
+    left: 340px;
+    top: 50px;
+}
+.percent {
+    font-family: Aileron BoldItalic;
+    color: #ffffff;
+    font-size: 16px;
+    left: 362px;
+    top: 50px;
+    position: absolute;
+}
+.phpImg {
+    scale: 70%;
+    margin-left: -14px;
+}
+
+.languages {
+    width: 946px;
+    padding-left: 466px;
+}
+.eng {
+    box-sizing: border-box;
+
+position: absolute;
+width: 294px;
+height: 79px;
+left: 450px;
+top: 830px;
+
+background: linear-gradient(94.32deg, rgba(255, 255, 255, 0.076) 9.19%, rgba(255, 255, 255, 0.0228) 95.36%);
+border: 1px solid rgba(255, 255, 255, 0.06);
+backdrop-filter: blur(22px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 62px;
+display: flex;
+}
+
+.titleEng {
+    font-size: 24px;
+    color: #2493FF;
+    font-family: aileron bold;
+    position: absolute;
+    left: 40px;
+}
+.levelEng {
+    color: #fff;
+    font-size: 24px;
+    font-family: aileron regular;
+    position: absolute;
+    right: 60px;
+}
+.eng hr {
+    height: 56px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transform: translate(0px, 0px);
+}
+
+.rus {
+    box-sizing: border-box;
+
+position: absolute;
+width: 294px;
+height: 79px;
+left: 800px;
+top: 830px;
+
+background: linear-gradient(94.32deg, rgba(255, 255, 255, 0.076) 9.19%, rgba(255, 255, 255, 0.0228) 95.36%);
+border: 1px solid rgba(255, 255, 255, 0.06);
+backdrop-filter: blur(22px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 62px;
+display: flex;
+}
+.rus hr {
+    height: 56px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transform: translate(0px, 0px);
+}
+
+.geo {
+    box-sizing: border-box;
+
+position: absolute;
+width: 294px;
+height: 79px;
+left: 1150px;
+top: 830px;
+
+background: linear-gradient(94.32deg, rgba(255, 255, 255, 0.076) 9.19%, rgba(255, 255, 255, 0.0228) 95.36%);
+border: 1px solid rgba(255, 255, 255, 0.06);
+backdrop-filter: blur(22px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 62px;
+display: flex;
+}
+.geo hr {
+    height: 56px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transform: translate(0px, 0px);
+}
+.geo:hover {
+    transform-origin: center;
+    transition: .3s;
+    scale: 110%;
+    background: linear-gradient(94.32deg, rgba(255, 255, 255, 0.177) 9.19%, rgba(255, 255, 255, 0.053) 95.36%);
+}
+.rus:hover {
+    transform-origin: center;
+    transition: .3s;
+    scale: 110%;
+    background: linear-gradient(94.32deg, rgba(255, 255, 255, 0.177) 9.19%, rgba(255, 255, 255, 0.053) 95.36%);
+}
+.eng:hover {
+    transform-origin: center;
+    transition: .3s;
+    scale: 110%;
+    background: linear-gradient(94.32deg, rgba(255, 255, 255, 0.177) 9.19%, rgba(255, 255, 255, 0.053) 95.36%);
+}
+
+
+.titleRus {
+    font-size: 24px;
+    color: #2493FF;
+    font-family: aileron bold;
+    position: absolute;
+    left: 50px;
+}
+.levelRus {
+    color: #fff;
+    font-size: 24px;
+    font-family: aileron regular;
+    position: absolute;
+    right: 64px;
+}
+.titleGeo {
+    font-size: 24px;
+    color: #2493FF;
+    font-family: aileron bold;
+    position: absolute;
+    left: 50px;
+}
+.levelGeo {
+    color: #fff;
+    font-size: 24px;
+    font-family: aileron regular;
+    position: absolute;
+    right: 44px;
+}
